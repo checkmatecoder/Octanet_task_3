@@ -1,0 +1,78 @@
+/* css box model, animations, flexboxes, positions */
+
+/* class */
+.green{
+    color:green;
+}
+
+/*  css box model
+border: Thickness Style Color;
+padding: spaceing inside the border
+margin:
+
+*/
+
+.box-model{
+    border: 10px solid rgb(36, 46, 136);
+    border-radius: 24px;
+    padding: 10px;
+    margin: 50px;
+}
+
+.card{
+    border:2px solid lightgray ;
+    border-radius: 12px;
+    padding:50;
+    margin: 60px;
+    width: 320px;
+    height:320px ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img-res{
+    width:100%;
+    border-radius: 12px;
+    padding: 0px;
+}
+
+.btn{
+    background-color: black;
+    color:white;
+    padding: 5px 10px;
+    border-radius: 44px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.user{
+    height: 100px;
+    width: 100px;
+    border-radius: 200;
+    padding: 20px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.card-bv{
+    background-color: yellow;
+    padding: 60px;
+    border-radius: 120px;
+}
+.flex-container{
+    display: flex;
+}
+.img-res-2{
+ width:300px;
+ margin: 100px;
+ padding: 0px; 
+   
+}
+.img-res-3{
+    width: 500px;
+    margin:100px;
+    padding:0px;
+}
+.text-design{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
